@@ -53,6 +53,9 @@
                                 <nil key="textColor"/>
                                 <nil key="highlightedColor"/>
                             </label>
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="Logo" translatesAutoresizingMaskIntoConstraints="NO" id="eiI-0l-BOn">
+                                <rect key="frame" x="117.33333333333333" y="115" width="193.33333333333337" height="65"/>
+                            </imageView>
                         </subviews>
                         <viewLayoutGuide key="safeArea" id="6Tk-OE-BBY"/>
                         <color key="backgroundColor" systemColor="systemBackgroundColor"/>
@@ -60,11 +63,13 @@
                             <constraint firstItem="gxF-V1-my6" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="3Ka-NP-KAb"/>
                             <constraint firstItem="AQX-Ho-Wds" firstAttribute="leading" secondItem="8bC-Xf-vdC" secondAttribute="leading" id="4Cv-xA-HO7"/>
                             <constraint firstItem="hIY-rn-myU" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="5qt-v3-Scr"/>
+                            <constraint firstItem="eiI-0l-BOn" firstAttribute="top" secondItem="6Tk-OE-BBY" secondAttribute="top" constant="71" id="JLh-J8-zca"/>
                             <constraint firstItem="AQX-Ho-Wds" firstAttribute="top" secondItem="8bC-Xf-vdC" secondAttribute="top" id="KQ5-QZ-rbW"/>
                             <constraint firstItem="pgU-CC-yDO" firstAttribute="top" secondItem="xpQ-rO-6sI" secondAttribute="bottom" constant="30" id="Lj6-eb-AqP"/>
                             <constraint firstItem="xpQ-rO-6sI" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="NGQ-JV-EoJ"/>
                             <constraint firstAttribute="bottom" secondItem="AQX-Ho-Wds" secondAttribute="bottom" id="WWa-0Y-cZd"/>
                             <constraint firstItem="l7u-IM-uaw" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="XxA-qL-JIn"/>
+                            <constraint firstItem="eiI-0l-BOn" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="bkS-3A-3fY"/>
                             <constraint firstItem="hIY-rn-myU" firstAttribute="top" secondItem="pgU-CC-yDO" secondAttribute="bottom" constant="10" id="cAQ-k7-Yek"/>
                             <constraint firstItem="l7u-IM-uaw" firstAttribute="top" secondItem="hIY-rn-myU" secondAttribute="bottom" constant="10" id="fS5-Dz-9em"/>
                             <constraint firstItem="pgU-CC-yDO" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="n4n-nv-wHN"/>
@@ -80,6 +85,7 @@
         </scene>
     </scenes>
     <resources>
+        <image name="Logo" width="193.5" height="65"/>
         <systemColor name="systemBackgroundColor">
             <color white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
         </systemColor>
